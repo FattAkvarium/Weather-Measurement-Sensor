@@ -22,8 +22,8 @@
 4. RestTemplate
 5. Postman
 ***
-## Для работы необходимо заполнить properties и создать 2 таблицы в PostgreSQL->
-*properties*:
+## Запуск
+### [*properties*](https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/application.properties.orig)
 ```sh
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.datasource.url=
@@ -34,10 +34,10 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.properties.hibernate.show_sql=true
 ```
 
-*database*:
-```sh
- Таблица Sensor
+## [*database Postgres*](https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/database.properties.orig)
 
+**Таблица Sensor** 
+```sh
 CREATE TABLE IF NOT EXISTS public.sensor
 (
     id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
@@ -50,9 +50,10 @@ TABLESPACE pg_default;
 
 ALTER TABLE IF EXISTS public.sensor
     OWNER to postgres;
+```
 
- Таблица Measurement
-
+**Таблица Measurement**
+```sh
 CREATE TABLE IF NOT EXISTS public.measurement
 (
     id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
