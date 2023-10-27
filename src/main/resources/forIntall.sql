@@ -1,4 +1,3 @@
-## Таблица Sensor
 
 CREATE TABLE IF NOT EXISTS public.sensor
 (
@@ -14,7 +13,6 @@ ALTER TABLE IF EXISTS public.sensor
     OWNER to postgres;
 
 
-## Таблица Measurement
 
 CREATE TABLE IF NOT EXISTS public.measurement
 (
