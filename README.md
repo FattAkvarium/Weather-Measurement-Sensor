@@ -29,7 +29,7 @@
 
 ### Запросы :
 - Регистрация нового сенсора:   
-POST - http://localhost:8080/sensors/registration
+POST - http://localhost:8080/sensors/registration   
 Пример:
 ```JSON
 {
@@ -38,7 +38,7 @@ POST - http://localhost:8080/sensors/registration
 ```
  
 - Добавление нового измерения:  
-POST - http://localhost:8080/measurements/add
+POST - http://localhost:8080/measurements/add   
 Пример:
 ```JSON
 {
