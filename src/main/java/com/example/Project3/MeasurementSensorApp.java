@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class Project3Application {
+public class MeasurementSensorApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Project3Application.class, args);
+		SpringApplication.run(MeasurementSensorApp.class, args);
 	}
 
 	@Bean
