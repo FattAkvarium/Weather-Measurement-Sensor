@@ -27,17 +27,33 @@
  2. Запустить [*скрипт PG*](https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/forIntall.sql) для создания таблиц Sensor и Measurement
  3. Запустить сервис на http://localhost:8080/
 
-### Примеры запросов:
-- POST запрос: http://localhost:8080/sensors/registration
-  (Регистрация нового сенсора {
-                               "name": "Sensor name"
-                              })
+### Запросы :
+- Регистрация нового сенсора:   
+POST - http://localhost:8080/sensors/registration
+Пример:
+```JSON
+{
+"name": "Sensor name"
+}
+```
  
-- POST запрос: http://localhost:8080/measurements/add
-  (Добавление нового измерения {"value": 11.1, "raining": false, "sensor": { "name": "Sensor name"}})
-                                 
-- GET запрос: http://localhost:8080/measurements
-  (Возвращает все измерения из БД)
-- GET запрос: http://localhost:8080/measurements/rainyDaysCount
-  (Возвращает количество дней с дождями из БД)
+- Добавление нового измерения:  
+POST - http://localhost:8080/measurements/add
+Пример:
+```JSON
+{
+ "value": 11.1,
+ "raining": false,
+ "sensor": {
+     "name": "Sensor name"
+ }
+}
+```
+
+- Возвращает все измерения из БД:   
+ GET - http://localhost:8080/measurements
+
+- Возвращает количество дней с дождями из БД:  
+GET - http://localhost:8080/measurements/rainyDaysCount
+
 
