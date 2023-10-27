@@ -26,5 +26,5 @@
  1. Заполнить файл [*properties*](https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/application.properties.orig), удалить окончание .orig
 
 
- 2. Запустить [*скрипт PG*](https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/database.properties.orig) для создания таблиц Sensor и Measurement
+ 2. Запустить [*скрипт PG*](https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/forIntall.sql) для создания таблиц Sensor и Measurement
 
