@@ -21,4 +21,7 @@
 3. Postgre SQL
 4. RestTemplate
 5. Postman
+***
+## Для работы необходимо заполнить пассы и создать 2 таблицы в PostgreSQL->
+https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/application.properties.orig
 
