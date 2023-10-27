@@ -23,7 +23,9 @@
 5. Postman
 ***
 ## Для работы необходимо заполнить properties и создать 2 таблицы в PostgreSQL->
-*properties* https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/application.properties.orig
+[*properties*]:
+(https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/application.properties.orig)
 
-*database* https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/database.properties.orig
+[*database*]: 
+(https://github.com/FattAkvarium/Weather-Measurement-Sensor/blob/master/src/main/resources/database.properties.orig)
 
